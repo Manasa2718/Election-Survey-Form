@@ -1,0 +1,38 @@
+div{
+    border: 30px solid black;
+    width: 500px;
+    height: 700px;
+    padding: 30px;
+    margin:30px;
+}
+/* label{
+    margin-right:10px;
+    margin-left:20px
+}
+input{
+    margin-right: 190px;
+    margin-left: 10px;
+} */ 
+input::placeholder{
+    color: blue;
+}
+iuput:valid{
+    color: green;
+    border: 5px solid green;
+}
+input:invalid{
+    color: red;
+    border: 5px solid red;
+}
+input:checked{
+    transform: scale(1.5);
+}
+input:hover{
+    color: rgb(6, 25, 10);
+    background-color: aquamarine;
+    border:10px solid blue;
+}
+#b{
+    border: 10px solid blue;
+    border-radius:20% ;
+}
